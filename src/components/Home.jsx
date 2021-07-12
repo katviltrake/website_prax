@@ -19,7 +19,7 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4"
-              src="url(${Image})"
+              src={Image}
               alt="home"
             />
           </div>

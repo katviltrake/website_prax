@@ -18,7 +18,7 @@ function About() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="url(${Image})"
+              src={Image}
               alt="about"
             />
           </div>
