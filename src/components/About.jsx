@@ -1,5 +1,6 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
+import Image from './phone.png';
 
 const useStyles = makeStyles(theme => ({
  about: { 
@@ -17,7 +18,7 @@ function About() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="https://lh3.googleusercontent.com/proxy/UY7p7KKYpvqMa2jzZkuJ1W2VJtxjMlfIVvIROUKYjkOnmq5hwVfeEdDvv-4B-YWdieei8ngin3430jmv2TZNok-i"
+              src="url(${Image})"
               alt="about"
             />
           </div>
